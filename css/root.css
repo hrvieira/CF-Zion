@@ -1,0 +1,16 @@
+* {
+  --color-branco: #FFF;
+  --color-laranja-letras: #E13F00;
+  --color-preto: #0F0F0F;
+  --font-size-p: 1.5rem;
+
+  font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+  background-image: url('/img/background-page.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

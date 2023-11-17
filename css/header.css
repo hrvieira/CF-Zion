@@ -1,0 +1,11 @@
+.displayFlex {
+  display: flex;
+}
+
+.zionSymbol {
+  margin: 2rem auto 0;
+  width: 40%;
+  max-width: 280px;
+
+  justify-content: space-around;
+}
