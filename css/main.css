@@ -49,6 +49,8 @@
   justify-content: start;
   align-items: center;
   background-color: #000;
+
+  cursor: pointer;
 }
 
 .imgLista {
