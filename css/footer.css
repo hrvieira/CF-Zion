@@ -1,0 +1,10 @@
+.iconeFooter {
+  width: 1.4rem;
+  padding: 0 1.3rem;
+}
+
+.listaFooter {
+  display: flex;
+  justify-content: center;
+  margin: 0.8rem 0 2rem;
+}

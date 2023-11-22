@@ -27,7 +27,7 @@
 .lista {
   color: var(--color-branco);
   text-align: center;
-  margin: 2rem;
+  margin: 1.5rem 2rem 1rem;
   font-size: 1rem;
   width: 100%;
 
@@ -54,6 +54,17 @@
 }
 
 .imgLista {
+  max-height: 2.5rem;
   width: 2.5rem;
   padding-right: 1.5rem;
+}
+
+.inverterCor {
+  filter: invert(100%);
+}
+
+.whatsapp {
+  width: 1.8rem;
+  padding-right: 1.8rem;
+  padding-left: 0.3rem;
 }

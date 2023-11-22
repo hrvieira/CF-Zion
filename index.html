@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vem pra Zion!</title>
   <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/root.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/footer.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/main.css">
   <link rel="icon" href="./img/zionSymbol.webp" type="image/x-icon">
 </head>
 
@@ -27,7 +28,7 @@
         nossos treinos de
         Cross.</p>
     </div>
-    <div class="displayFlex">
+    <nav class="displayFlex">
       <ul class="lista" id="minhaLista">
         <li class="itemLista" data-url="https://www.canva.com/design/DAFwfs76n7Y/VVxLryV_YLkNTD9ocI9FxA/edit">
           <img class="imgLista" src="./img/zionSymbol.webp" alt="Símbolo do CF Zion"> Sobre a CF Zion
@@ -40,12 +41,29 @@
           <img class="imgLista" src="./img/gympass.webp" alt="Símbolo do Gympass"> Aceitamos GymPass
         </li>
         <li class="itemLista" data-url="https://api.whatsapp.com/send?phone=5521975584574">
-          <img class="imgLista" src="./img/whatsapp.webp" alt="Símbolo do Whatsapp"> Fale Conosco
+          <img class="imgLista inverterCor whatsapp" src="./icon/whatsapp.png" alt="Símbolo do Whatsapp"> Fale
+          Conosco
         </li>
       </ul>
-    </div>
+    </nav>
   </main>
-  <footer></footer>
+  <footer>
+    <ul class="listaFooter">
+      <li>
+        <a href="mailto:centrofitnesszion@gmail.com" target="_blank">
+          <img class="inverterCor iconeFooter" src="./icon/email.png" alt="ícone email">
+        </a>
+      </li>
+      <li><a href="https://www.facebook.com/profile.php?id=100089815054717"><img class="inverterCor iconeFooter"
+            src="./icon/facebook.png" alt="ícone Facebook"></a></li>
+      <li><a href="https://www.instagram.com/zioncf_/"><img class="inverterCor iconeFooter" src="./icon/instagram.png"
+            alt="ícone Instagram"></a></li>
+      <li><a href="https://maps.app.goo.gl/cqzJ16uDdqrvcouMA"><img class="inverterCor iconeFooter" src="./icon/pin.png"
+            alt="ícone endereço"></a>
+      </li>
+      </li>
+    </ul>
+  </footer>
   <script src="./js/script.js"></script>
 </body>
 
