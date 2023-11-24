@@ -55,8 +55,8 @@
 }
 
 .lista li {
-  -webkit-box-shadow: 0 0 9px 0 #ff4901e0;
-  box-shadow: 0 0 8px 0 #ff4901e0;
+  -webkit-box-shadow: 0px 0px 10px 2px var(--color-shadow-laranja);
+  box-shadow: 0px 0px 10px 2px var(--color-shadow-laranja);
 }
 
 .imgLista {

@@ -2,6 +2,7 @@
   --color-branco: #FFF;
   --color-laranja-letras: #E13F00;
   --color-preto: #0F0F0F;
+  --color-shadow-laranja: rgba(225 63 0 / 60%);
   --font-size-p: 1.5rem;
 
   font-family: 'Roboto', sans-serif;
