@@ -37,13 +37,13 @@
 }
 
 .itemLista {
-  height: 1.5rem;
+  height: 1.2rem;
   width: 100%;
   max-width: 800px;
-  margin: 0.2rem;
+  margin: 0.3rem;
   padding: 1rem;
   border-radius: 45px;
-  border: 1.5px solid var(--color-laranja-letras);
+  border: .5px solid var(--color-laranja-letras);
 
   display: flex;
   justify-content: start;
@@ -51,6 +51,12 @@
   background-color: #000;
 
   cursor: pointer;
+
+}
+
+.lista li {
+  -webkit-box-shadow: 0 0 9px 0 #ff4901e0;
+  box-shadow: 0 0 8px 0 #ff4901e0;
 }
 
 .imgLista {
@@ -60,6 +66,10 @@
 }
 
 .inverterCor {
+  filter: invert(100%);
+}
+
+.iconeFooter {
   filter: invert(100%);
 }
 
